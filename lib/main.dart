@@ -4,7 +4,7 @@ void main() {}
 
 class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
-    return MaterialApp(
+    return const MaterialApp(
       home: Text('Hello'),
     );
   }
