@@ -4,7 +4,7 @@ void main() => runApp(MyApp());
 
 class MyApp extends StatelessWidget {
   void answerQuestion() {
-    print('Answer Chosen');
+    print('Button Chal raha hai!');
   }
 
   Widget build(BuildContext context) {
@@ -22,20 +22,11 @@ class MyApp extends StatelessWidget {
               Text('The Question'),
               RaisedButton(
                 child: Text('Answer 1'),
-                onPressed: null,
+                onPressed: answerQuestion,
               ),
-              RaisedButton
-              (child: Text('Answer 2'),
-               onPressed: answerQuestion
-               ),
-              RaisedButton(
-                child: Text('Answer 3'),
-                 onPressed: answerQuestion
-                 ),
-              RaisedButton(
-                child: Text('Answer 4'),
-                 onPressed: answerQuestion
-                 ),
+              RaisedButton(child: Text('Answer 2'), onPressed: answerQuestion),
+              RaisedButton(child: Text('Answer 3'), onPressed: answerQuestion),
+              RaisedButton(child: Text('Answer 4'), onPressed: answerQuestion),
             ],
           )),
     );
