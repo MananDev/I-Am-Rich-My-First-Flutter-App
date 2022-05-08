@@ -22,22 +22,23 @@ class MyApp extends StatelessWidget {
               Text('The Question'),
               RaisedButton(
                 child: Text('Answer 1'),
-                onPressed: answerQuestion,
+                onPressed: () => print('Pehla Button Chal raha'),
               ),
               RaisedButton(
                 child: Text('Answer 2'),
-                onPressed: answerQuestion,
+                onPressed: () => print('doosra Button Chal raha'),
               ),
               RaisedButton(
                 child: Text('Answer 3'),
-                onPressed: answerQuestion,
+                onPressed: () => print('teesra Button Chal raha'),
               ),
               RaisedButton(
                 child: Text('Answer 4'),
-                onPressed: answerQuestion,
+                onPressed: () => print('chautha Button Chal raha'),
               ),
             ],
           )),
     );
   }
 }
+muhammadmanan7175
