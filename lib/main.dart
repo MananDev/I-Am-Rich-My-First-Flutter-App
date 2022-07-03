@@ -19,20 +19,20 @@ class MyApp extends StatelessWidget {
           ),
           body: Column(
             children: [
-              Text('The Question'),
-              RaisedButton(
+              Text(questions.elementAt[0]),
+              ElevatedButton(
                 child: Text('Answer 1'),
                 onPressed: () => print('Pehla Button Chal raha'),
               ),
-              RaisedButton(
+              ElevatedButton(
                 child: Text('Answer 2'),
                 onPressed: () => print('doosra Button Chal raha'),
               ),
-              RaisedButton(
+              ElevatedButton(
                 child: Text('Answer 3'),
                 onPressed: () => print('teesra Button Chal raha'),
               ),
-              RaisedButton(
+              ElevatedButton(
                 child: Text('Answer 4'),
                 onPressed: () => print('chautha Button Chal raha'),
               ),
