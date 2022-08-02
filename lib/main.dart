@@ -12,9 +12,11 @@ void main() {
           title: Text('I am Rich'),
           backgroundColor: Colors.blueGrey.shade800,
         ),
-        body: Image(
-          image: NetworkImage(
-              'https://www.kindpng.com/picc/m/353-3532984_diamond-svg-cute-borders-vectors-animated-black-diamond.png'),
+        body: Center(
+          child: Image(
+         image: 
+         NetworkImage('https://www.kindpng.com/picc/m/353-3532984_diamond-svg-cute-borders-vectors-animated-black-diamond.png'),
+        ),
         ),
       ),
     ),
