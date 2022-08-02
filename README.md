@@ -2,7 +2,7 @@
 
 A new Flutter project.
 
-## Getting Started
+## I am Rich - Clone App
 
 This project is a starting point for a Flutter application.
 
