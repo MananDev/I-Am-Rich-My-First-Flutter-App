@@ -1,43 +1,22 @@
+import 'dart:ui';
+
 import 'package:flutter/material.dart';
 
-void main() => runApp(MyApp());
-
-class MyApp extends StatelessWidget {
-  void answerQuestion() {
-    print('Button Chal raha hai!');
-  }
-
-  Widget build(BuildContext context) {
-    var questions = [
-      'What\'s your favourite color?',
-      'What\'s your favourite animal?'
-    ];
-    return MaterialApp(
+// main fuction is the starting point of our all Flutter applications.
+void main() {
+  runApp(
+    MaterialApp(
       home: Scaffold(
-          appBar: AppBar(
-            title: Text('My first App'),
-          ),
-          body: Column(
-            children: [
-              Text(questions.elementAt[0]),
-              ElevatedButton(
-                child: Text('Answer 1'),
-                onPressed: () => print('Pehla Button Chal raha'),
-              ),
-              ElevatedButton(
-                child: Text('Answer 2'),
-                onPressed: () => print('doosra Button Chal raha'),
-              ),
-              ElevatedButton(
-                child: Text('Answer 3'),
-                onPressed: () => print('teesra Button Chal raha'),
-              ),
-              ElevatedButton(
-                child: Text('Answer 4'),
-                onPressed: () => print('chautha Button Chal raha'),
-              ),
-            ],
-          )),
-    );
-  }
+        backgroundColor: Colors.blueGrey,
+        appBar: AppBar(
+          title: Text('I am Rich'),
+          backgroundColor: Colors.blueGrey.shade800,
+        ),
+        body: Image(
+          image: NetworkImage(
+              'https://www.kindpng.com/picc/m/353-3532984_diamond-svg-cute-borders-vectors-animated-black-diamond.png'),
+        ),
+      ),
+    ),
+  );
 }
