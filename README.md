@@ -1,8 +1,8 @@
-# new_app
+# I am Rich - The Clone App
 
 A new Flutter project.
 
-## I am Rich - Clone App
+## About the App
 
 This project is a starting point for a Flutter application.
 
