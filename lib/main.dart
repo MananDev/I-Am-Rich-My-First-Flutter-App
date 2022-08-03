@@ -14,8 +14,7 @@ void main() {
         ),
         body: Center(
           child: Image(
-            image: NetworkImage(
-                'https://www.kindpng.com/picc/m/353-3532984_diamond-svg-cute-borders-vectors-animated-black-diamond.png'),
+            image: AssetImage('Images/diamond.png'),
           ),
         ),
       ),
