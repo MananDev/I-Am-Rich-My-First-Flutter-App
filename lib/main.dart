@@ -1,8 +1,5 @@
 import 'dart:ui';
-
 import 'package:flutter/material.dart';
-
-// main fuction is the starting point of our all Flutter applications.
 void main() {
   runApp(
     MaterialApp(
